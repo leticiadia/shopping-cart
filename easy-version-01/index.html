@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #297373;
+
+        font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 100vh;
+      }
+
+      .wrapper {
+        background-color: rgba(251, 251, 249, 0.6);
+
+        width: 37.5rem;
+        height: 13rem;
+        padding: 2rem;
+
+        border-radius: 0.25rem;
+      }
+
+      .wrapper .buttons {
+        margin-top: 3rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 0.5rem;
+      }
+
+      .wrapper .buttons #show-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+
+        background-color: #bc9cb0;
+        width: 11rem;
+        height: 1.75rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+
+        cursor: pointer;
+
+        font-size: 0.875rem;
+        font-weight: 500;
+
+        padding: 0.5rem 1rem;
+      }
+
+      .wrapper .buttons #show-cart:hover {
+        background-color: #ba80a4;
+      }
+
+      .wrapper .buttons #add-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+
+        background-color: #bc9cb0;
+        width: 11rem;
+        height: 1.75rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+
+        cursor: pointer;
+
+        font-size: 0.875rem;
+        font-weight: 500;
+
+        padding: 0.5rem 1rem;
+      }
+
+      .wrapper .buttons #add-cart:hover {
+        background-color: #ba80a4;
+      }
+
+      .wrapper .buttons #clear-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+
+        background-color: #bc9cb0;
+        width: 11rem;
+        height: 1.75rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+
+        cursor: pointer;
+
+        font-size: 0.875rem;
+        font-weight: 500;
+
+        padding: 0.5rem 1rem;
+      }
+
+      .wrapper .buttons #clear-cart:hover {
+        background-color: #ba80a4;
+      }
+
+      @media (max-width: 768px) {
+        .wrapper {
+          width: 20rem;
+          height: 20rem;
+          padding: 2rem;
+        }
+
+        .wrapper h2 {
+          text-align: center;
+        }
+
+        .wrapper .buttons {
+          flex-direction: column;
+        }
+      }
+    </style>
+    <title>Carrinho de Compras</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Carrinho de Compras</h2>
+
+      <div class="buttons">
+        <button
+          id="show-cart"
+          onclick="alert(`Quantidade de produtos no carrinho: ${cartQuantity}`)"
+        >
+          Mostrar Carrinho
+          <i class="ph ph-shopping-cart"></i>
+        </button>
+
+        <button
+          id="add-cart"
+          onclick="cartQuantity += 1; alert('Produto adicionado ao carrinho!')"
+        >
+          Adicionar ao Carrinho
+        </button>
+
+        <button
+          id="clear-cart"
+          onclick="cartQuantity = 0; alert('Seu carrinho foi esvaziado!')"
+        >
+          Limpar Carrinho
+          <i class="ph ph-trash"></i>
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let cartQuantity = 0;
+    </script>
+  </body>
+</html>
