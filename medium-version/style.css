@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #297373;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: rgba(251, 251, 249, 0.6);
+
+  width: 37.5rem;
+  height: 11.25rem;
+  padding: 2rem;
+
+  border-radius: 0.25rem;
+}
+
+.wrapper .buttons {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+}
+
+.wrapper .buttons #show-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  background-color: #bc9cb0;
+  width: 11rem;
+  height: 1.75rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+
+  cursor: pointer;
+
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  padding: 0.5rem 1rem;
+}
+
+.wrapper .buttons #show-cart:hover {
+  background-color: #ba80a4;
+}
+
+.wrapper .buttons #add-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  background-color: #bc9cb0;
+  width: 11rem;
+  height: 1.75rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+
+  cursor: pointer;
+
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  padding: 0.5rem 1rem;
+}
+
+.wrapper .buttons #add-cart:hover {
+  background-color: #ba80a4;
+}
+
+.wrapper .buttons #clear-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+
+  background-color: #bc9cb0;
+  width: 11rem;
+  height: 1.75rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+
+  cursor: pointer;
+
+  font-size: 0.875rem;
+  font-weight: 500;
+
+  padding: 0.5rem 1rem;
+}
+
+.wrapper .buttons #clear-cart:hover {
+  background-color: #ba80a4;
+}
+
+.wrapper #message .title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-top: 2rem;
+}
+
+.wrapper #message .title i {
+  font-size: 2rem;
+}
+
+.wrapper #message .title p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.wrapper #message .textContent {
+  margin-top: 1rem;
+
+  font-size: 1rem;
+}
+
+.wrapper #message .message-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.wrapper #message .message-content p {
+  background-color: #00bba7;
+  width: 16rem;
+  height: 1.5rem;
+
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+
+  border-radius: 0.25rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+  }
+
+  .wrapper h2 {
+    text-align: center;
+  }
+
+  .wrapper .buttons {
+    flex-direction: column;
+  }
+
+  .wrapper #message .title {
+    justify-content: center;
+  }
+
+  .wrapper #message .textContent {
+    text-align: center;
+  }
+}
