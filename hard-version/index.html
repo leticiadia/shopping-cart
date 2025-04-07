@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Carrinho de Compras</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Carrinho de Compras</h1>
+
+        <div class="column-right">
+          <img
+            src="./assets/icons/shopping-cart.svg"
+            alt="Ícone de um carrinho de compras na cor preta"
+          />
+
+          <p id="cart-quantity"></p>
+        </div>
+      </header>
+
+      <section>
+        <ul class="cards">
+          <li>
+            <article class="card">
+              <img
+                src="./assets/images/keyboard.jpg"
+                alt="teclado na cor branca"
+              />
+
+              <p>Teclado sem fio</p>
+
+              <div
+                class="star-icon"
+                aria-label="Classificação: 3 estrelas de 5"
+              >
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+              </div>
+
+              <p>R$ 75,00</p>
+            </article>
+
+            <button class="add-cart">Adicionar ao Carrinho</button>
+          </li>
+
+          <li>
+            <article class="card">
+              <img
+                src="./assets/images/keyboard-mouse.jpg"
+                alt="teclado e mouse na cor preta da marca acer"
+              />
+
+              <p>Teclado e mouse acer</p>
+
+              <div
+                class="star-icon"
+                aria-label="Classificação: 2 estrelas de 5"
+              >
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+              </div>
+
+              <p>R$ 80,00</p>
+            </article>
+
+            <button class="add-cart">Adicionar ao Carrinho</button>
+          </li>
+
+          <li>
+            <article class="card">
+              <img
+                src="./assets/images/monitor.jpg"
+                alt="monitor de 24 polegadas na cor branca com bordas na cor preta"
+              />
+
+              <p>Monitor 24 polegadas</p>
+
+              <div
+                class="star-icon"
+                aria-label="Classificação: 4 estrelas de 5"
+              >
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+                <img
+                  src="./assets/icons/star-fill.svg"
+                  alt="estrelas na cor amarela"
+                />
+              </div>
+
+              <p>R$ 800,00</p>
+            </article>
+
+            <button class="add-cart">Adicionar ao Carrinho</button>
+          </li>
+        </ul>
+      </section>
+
+      <div>
+        <a href="./shopping-cart.html" id="show-cart">
+          Ver Carrinho
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
