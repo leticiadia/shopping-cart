@@ -53,7 +53,6 @@ function renderCartProducts(container) {
     `;
   } else {
     container.innerHTML = `
-      <p>Produtos:</p>
       ${Object.entries(cart)
         .map(
           ([name, quantity]) =>
@@ -71,7 +70,6 @@ function showCart() {
 
   container.innerHTML = `
     <div class="title">
-        <img src="./assets/icons/shopping-cart.svg">
         <p>Seu Carrinho</p>
     </div>
 
