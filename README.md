@@ -26,11 +26,11 @@ Aqui você encontrará três níveis de desafio para praticar e evoluir suas hab
 
 Você pode escolher qualquer um dos desafios abaixo para começar. Cada um tem um grau de complexidade diferente:
 
-| Nível      | Descrição                                                                                  | Instruções                                     |
-| ---------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| 🟢 Fácil   | Construa a interface com HTML e CSS e exiba mensagens com alert() via JavaScript.          | [Ver desafio](https://encurtador.com.br/LxIcw) |
-| 🟡 Médio   | Mensagens aparecem na tela, abaixo dos botões, usando manipulação do DOM.                  | [Ver desafio](https://encurtador.com.br/tgreo) |
-| 🔴 Difícil | Sistema de carrinho com múltiplas páginas, produtos com quantidade, e armazenamento local. | [Ver desafio](https://encurtador.com.br/72cR1) |
+| Nível      | Descrição                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------ |
+| 🟢 Fácil   | Construa a interface com HTML e CSS e exiba mensagens com alert() via JavaScript.          |
+| 🟡 Médio   | Mensagens aparecem na tela, abaixo dos botões, usando manipulação do DOM.                  |
+| 🔴 Difícil | Sistema de carrinho com múltiplas páginas, produtos com quantidade, e armazenamento local. |
 
 ### 🛠️ Ferramentas que você vai precisar
 
