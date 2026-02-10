@@ -1,0 +1,106 @@
+main .wrapper section {
+  margin-top: 2rem;
+}
+
+main .wrapper section h3 {
+  color: var(--white);
+}
+
+main .wrapper section .product-list {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+main .wrapper section .product-list .empty-state p {
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+main .wrapper section .product-list .product-item {
+  color: var(--white);
+}
+
+main .wrapper section .product-list .product-item article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1rem;
+}
+
+main .wrapper section .product-list .product-item article .product-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main
+  .wrapper
+  section
+  .product-list
+  .product-item
+  article
+  .product-controls
+  span {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.25rem;
+
+  background-color: var(--blue-300);
+  border-radius: 0.25rem;
+
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--black);
+}
+
+main
+  .wrapper
+  section
+  .product-list
+  .product-item
+  article
+  .product-controls
+  button {
+  border: none;
+  background: none;
+
+  width: 2rem;
+}
+
+main
+  .wrapper
+  section
+  .product-list
+  .product-item
+  article
+  .product-controls
+  button
+  img {
+  height: 1.5rem;
+}
+
+main .wrapper .cart-actions button {
+  background-color: var(--red-300);
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+main .wrapper .cart-actions button i,
+main .wrapper .cart-actions a i {
+  font-size: 1.25rem;
+}
+
+main .wrapper .cart-actions a {
+  background-color: var(--blue-300);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  main .wrapper .cart-actions button,
+  main .wrapper .cart-actions a {
+    width: 100%;
+  }
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/home.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <header>
+          <h2>Carrinho de Compras</h2>
+
+          <div class="cart-summary">
+            <img
+              src="../assets/icons/shopping-cart.svg"
+              alt="Ícone de um carrinho de compras na cor branca"
+            />
+
+            <p id="cart-quantity">0</p>
+          </div>
+        </header>
+
+        <section>
+          <ul class="cards">
+            <li>
+              <article class="card" data-id="1" data-name="Teclado sem fio">
+                <img
+                  src="../assets/images/keyboard.jpg"
+                  alt="Teclado sem fio de computador na cor branca"
+                />
+
+                <p class="product-name">Teclado sem fio</p>
+
+                <div class="star-icon">
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                </div>
+
+                <p>R$ 75,00</p>
+              </article>
+
+              <button class="add-cart">Adicionar ao carrinho</button>
+            </li>
+
+            <li>
+              <article class="card" data-id="2" data-name="Teclado e Mouse">
+                <img
+                  src="../assets/images/keyboard-mouse.jpg"
+                  alt="Teclado e mouse com fio na cor preta"
+                />
+
+                <p class="product-name">Teclado e Mouse</p>
+
+                <div class="star-icon">
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                </div>
+
+                <p>R$ 80,00</p>
+              </article>
+
+              <button class="add-cart">Adicionar ao carrinho</button>
+            </li>
+
+            <li>
+              <article
+                class="card"
+                data-id="3"
+                data-name="Monitor 24 polegadas"
+              >
+                <img
+                  src="../assets/images/monitor.jpg"
+                  alt="monitor de 24 polegadas na cor branca com bordas na cor preta"
+                />
+
+                <p class="product-name">Monitor 24 polegadas</p>
+
+                <div class="star-icon">
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                  <img
+                    src="../assets/icons/star-fill.svg"
+                    alt="Estrela na cor amarela"
+                  />
+                </div>
+
+                <p>R$ 800,00</p>
+              </article>
+
+              <button class="add-cart">Adicionar ao carrinho</button>
+            </li>
+          </ul>
+        </section>
+
+        <div class="button-show-cart">
+          <a href="../pages/shopping-cart.html" id="show-cart">
+            Ver carrinho
+            <i class="ph ph-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© Todos os direito reservado a Leticia Dias</p>
+    </footer>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
