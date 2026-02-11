@@ -10,6 +10,7 @@
   --blue-600: #67b1ff;
 
   --red-300: #ffa2a2;
+  --red-500: #ff8686;
 }
 
 * {
@@ -47,7 +48,7 @@ main .wrapper {
   border-radius: 0.25rem;
 
   width: 41.75rem;
-  height: 28rem;
+  height: 30rem;
   padding: 2rem;
   margin: 2rem;
 
@@ -85,6 +86,10 @@ main .wrapper header .cart-summary #cart-quantity {
 
   font-size: 0.75rem;
   font-weight: bold;
+}
+
+main .wrapper section {
+  min-height: 13rem;
 }
 
 button,
